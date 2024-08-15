@@ -6,7 +6,7 @@ $(document).ready(function(){
   $('#menuWrapper').width($('.menuItems').width());
 });
 
-$(window).mousedown(function(event) {
+$(window).onclick(function(event) {
   if(event.which == '2'){
     //for(var i in event)
       //alert(i + ' => ' + event[i]);
